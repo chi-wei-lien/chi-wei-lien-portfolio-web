@@ -1,11 +1,15 @@
 import styled from "styled-components";
 
-const Navbar = () => {
+interface INavbarProps {
+    setPage: React.Dispatch<React.SetStateAction<string>>
+}
+
+const Navbar = (props: INavbarProps) => {
     return (
         <NavbarContainer>
-            <NavbarElement>About</NavbarElement>
-            <NavbarElement>Education</NavbarElement>
-            <NavbarElement>Experience</NavbarElement>
+            <NavbarElement onClick={() => {props.setPage("about")}}>About</NavbarElement>
+            <NavbarElement onClick={() => {props.setPage("education.md")}}>Education</NavbarElement>
+            {/*<NavbarElement onClick={() => {props.setPage("experience")}}>Experience</NavbarElement>*/}
         </NavbarContainer>
     )
 }
@@ -22,6 +26,7 @@ const NavbarElement = styled.div`
   text-decoration: underline;
   font-family: "VT323", monospace;
   font-size: 30px;
+  cursor: pointer;
 `
 
 export default Navbar;
