@@ -44,6 +44,7 @@ const MaskContainer = styled.div`
 const HeroSection = styled.div`
   position: relative;
   display: flex;
+  flex-direction: row;
   align-items: flex-end;
   justify-content: center;
   height: 100vh;
