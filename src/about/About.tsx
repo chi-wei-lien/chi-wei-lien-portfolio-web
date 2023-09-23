@@ -33,6 +33,7 @@ const About = () => {
     )
 }
 
+
 const TextImageContainer = styled.div`
   max-width: 1100px;
   border-width: 0.5em;
@@ -46,10 +47,9 @@ const TextImageContainer = styled.div`
 `
 
 const TextSection = styled.div`
+  max-width: 700px;
   padding: 40px;
-  width: 700px;
   color: white;
-  max-width: 100%;
   
   & h1 {
     font-family: "VT323", monospace;
@@ -60,6 +60,7 @@ const TextSection = styled.div`
 
 const ImageContainer = styled.div`
   position: relative;
+  min-width: 300px;
   width: 400px;
 
   @media only screen and (max-width: 768px) {
