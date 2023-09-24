@@ -25,5 +25,5 @@
 - Programming in C (CS 240) | A
 - Object-oriented Programming, Java (CS 180) | A
 - Python Programming (CS 38003) | A
-- Competitive Programming I (CS 290) P
-- Competitive Programming II (CS 311) P
+- Competitive Programming I (CS 290) | P
+- Competitive Programming II (CS 311) | current

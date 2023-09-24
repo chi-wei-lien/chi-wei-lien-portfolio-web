@@ -2,11 +2,13 @@ import SectionContainer from "../style/SectionContainer";
 import styled from "styled-components";
 
 const Footer = () => {
+    const d = new Date();
+    const year = d.getFullYear();
     return (
         <div>
             <SectionContainer>
                 <TextSection>
-                    © 2021-2023 Chi-Wei Lien. All rights reserved.
+                    © 2021-{year} Chi-Wei Lien. All rights reserved.
                 </TextSection>
             </SectionContainer>
         </div>

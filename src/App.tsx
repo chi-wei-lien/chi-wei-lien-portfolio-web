@@ -5,6 +5,7 @@ import Footer from "./footer/Footer";
 import Navbar from "./navbar/Navbar";
 import Education from "./education/Education";
 import { Route, useLocation, Link } from "react-router-dom";
+import Publication from './publication/Publication';
 
 const App = () => {
     const location = useLocation();
@@ -16,8 +17,7 @@ const App = () => {
               <Navbar />
               {(location.pathname === "/about" || location.pathname === "/") && <About />}
               {location.pathname === "/education" && <Education />}
-              {/*<Computer />*/}
-              {/*<Portfolio />*/}
+              {location.pathname === "/publication" && <Publication />}
               <Footer />
           </div>
       </div>

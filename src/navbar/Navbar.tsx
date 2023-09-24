@@ -13,6 +13,11 @@ const Navbar = () => {
         <Link to="/education">
           Education
         </Link>
+      </NavbarElement>
+      <NavbarElement>
+        <Link to="/publication">
+          Publication
+        </Link>
       </NavbarElement> 
     </NavbarContainer>
   )
