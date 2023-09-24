@@ -17,7 +17,7 @@ export const TextSection = styled.div`
   
   & h1 {
     font-family: "VT323", monospace;
-    font-size: 100px;
+    font-size: 70px;
     text-align: center;
   }
 
