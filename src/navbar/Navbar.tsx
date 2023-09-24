@@ -1,17 +1,21 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
-interface INavbarProps {
-    setPage: React.Dispatch<React.SetStateAction<string>>
-}
-
-const Navbar = (props: INavbarProps) => {
-    return (
-        <NavbarContainer>
-            <NavbarElement onClick={() => {props.setPage("about")}}>About</NavbarElement>
-            <NavbarElement onClick={() => {props.setPage("education.md")}}>Education</NavbarElement>
-            {/*<NavbarElement onClick={() => {props.setPage("experience")}}>Experience</NavbarElement>*/}
-        </NavbarContainer>
-    )
+const Navbar = () => {
+  return (
+    <NavbarContainer>
+      <NavbarElement>
+        <Link to="/about">
+          About
+        </Link>
+      </NavbarElement>
+      <NavbarElement>
+        <Link to="/education">
+          Education
+        </Link>
+      </NavbarElement> 
+    </NavbarContainer>
+  )
 }
 
 const NavbarContainer = styled.div`

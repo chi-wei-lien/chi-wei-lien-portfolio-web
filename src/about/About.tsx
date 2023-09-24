@@ -56,6 +56,11 @@ const TextSection = styled.div`
     font-size: 100px;
     text-align: center;
   }
+
+  & a {
+    color: #fcd34d;
+    text-decoration: underline;
+  }
 `
 
 const ImageContainer = styled.div`
