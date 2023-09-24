@@ -2,6 +2,8 @@ import ReactMarkdown from 'react-markdown'
 import {useEffect, useState} from "react";
 import styled from "styled-components";
 import SectionContainer from "../style/SectionContainer";
+import { ImageContainer, ImageSection } from '../style/Image';
+import { TextImageContainer, TextSection } from '../style/Text';
 
 const About = () => {
     const [content, setContent] = useState("");
@@ -32,64 +34,5 @@ const About = () => {
         </div>
     )
 }
-
-
-const TextImageContainer = styled.div`
-  max-width: 1100px;
-  border-width: 0.5em;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  min-height: 800px;
-  @media only screen and (max-width: 768px) {
-    flex-direction: column;
-  }
-`
-
-const TextSection = styled.div`
-  max-width: 700px;
-  padding: 40px;
-  color: white;
-  
-  & h1 {
-    font-family: "VT323", monospace;
-    font-size: 100px;
-    text-align: center;
-  }
-
-  & a {
-    color: #fcd34d;
-    text-decoration: underline;
-  }
-`
-
-const ImageContainer = styled.div`
-  position: relative;
-  min-width: 300px;
-  width: 400px;
-
-  @media only screen and (max-width: 768px) {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-  }
-`
-
-const ImageSection = styled.div`
-  top: 50%;
-  position: absolute;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  padding: 40px 40px 40px 0;
-
-  @media only screen and (max-width: 768px) {
-    top: 0;
-    -ms-transform: translateY(0);
-    transform: translateY(0);
-    position: relative;
-    width: 400px;
-    padding: 40px;
-  }
-`
 
 export default About

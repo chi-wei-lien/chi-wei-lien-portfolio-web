@@ -1,4 +1,4 @@
-## Purdue University - West Lafayette
+### Purdue University - West Lafayette
 
 ---
 - B.S. in Computer Science
@@ -6,12 +6,12 @@
 - Outstanding CS Sophomore Award
 - Research area: Biometric authentication, machine learning
 - GPA: 3.98/4.0
-## Clubs
+### Clubs
 
 ---
 -  Purdue Hackers (ex engineering team lead) 
 
-## CS Courses
+### CS Courses
 
 ---
 - Data Mining & Machine Learning (CS 373) | current

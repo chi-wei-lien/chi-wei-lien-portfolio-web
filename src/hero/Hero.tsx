@@ -74,6 +74,7 @@ const TerminalIntro = styled.div`
   margin-bottom: 20px;
   border-radius: 0.125rem;
   width: 24rem;
+  max-width: 100vw;
   background-color: rgba(25, 25, 25, 0.67);
 `
 

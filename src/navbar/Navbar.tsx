@@ -27,10 +27,12 @@ const NavbarContainer = styled.div`
   display: flex;
   justify-content: center;
   background-color: #292930;
+  flex-wrap: wrap;
+
 `
 
 const NavbarElement = styled.div`
-  padding: 20px;
+  padding: 20px 20px 0px 20px;
   color: white;
   text-decoration: underline;
   font-family: "VT323", monospace;
