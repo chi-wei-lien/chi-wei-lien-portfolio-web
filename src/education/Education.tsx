@@ -2,7 +2,22 @@ import {useEffect, useState} from "react";
 import SectionContainer from "../style/SectionContainer";
 import ReactMarkdown from "react-markdown";
 import styled from "styled-components";
+import ImageGallery from "react-image-gallery";
 
+const images = [
+  {
+    original: "images/purdue.jpg",
+    originalAlt: "bell_tower",
+    thumbnail: "images/purdue.jpg",
+    thumbnailAlt: "bell_tower_thumbnail"
+  },
+  {
+    original: "images/award.jpg",
+    originalAlt: "outstanding_cs_sophomore_award",
+    thumbnail: "images/award.jpg",
+    thumbnailAlt: "outstanding_cs_sophomore_award_thumbnail"
+  }
+];
 
 const Education = () => {
     const [content, setContent] = useState("");
@@ -25,7 +40,7 @@ const Education = () => {
                     </TextSection>
                     <ImageContainer>
                         <ImageSection>
-                            <img src={"images/purdue.jpg"} alt={"me"}></img>
+                            <ImageGallery items={images} />
                         </ImageSection>
                     </ImageContainer>
                 </TextImageContainer>
@@ -47,10 +62,9 @@ const TextImageContainer = styled.div`
 `
 
 const TextSection = styled.div`
+  max-width: 700px;
   padding: 40px;
-  width: 700px;
   color: white;
-  max-width: 100%;
   
   & h1 {
     font-family: "VT323", monospace;
@@ -69,6 +83,7 @@ const TextSection = styled.div`
 
 const ImageContainer = styled.div`
   position: relative;
+  min-width: 300px;
   width: 400px;
 
   @media only screen and (max-width: 768px) {
