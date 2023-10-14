@@ -1,16 +1,16 @@
-import styled, {keyframes} from "styled-components";
+import styled, { keyframes } from 'styled-components'
 
 const Hero = () => (
-    <HeroSection>
-        <MaskContainer>
-            <HeroImgContainer>
-                <TerminalIntro>
-                    {"chi-wei-lien:~$"} cat intro.md <br />
-                    Hi, I{"'"}m Willy.
-                </TerminalIntro>
-            </HeroImgContainer>
-        </MaskContainer>
-    </HeroSection>
+  <HeroSection>
+    <MaskContainer>
+      <HeroImgContainer>
+        <TerminalIntro>
+          {'chi-wei-lien:~$'} cat intro.md <br />
+          Hi, I{"'"}m Willy.
+        </TerminalIntro>
+      </HeroImgContainer>
+    </MaskContainer>
+  </HeroSection>
 )
 
 const fadeOut = keyframes`
@@ -51,12 +51,12 @@ const HeroSection = styled.div`
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: 
-    radial-gradient(
-      circle, 
-      rgba(247,246,157,0.006039915966386533) 22%, 
-      rgba(18,18,18,0.6474964985994398) 60%),
-    url("/images/cover.png");
+  background-image: radial-gradient(
+      circle,
+      rgba(247, 246, 157, 0.006039915966386533) 22%,
+      rgba(18, 18, 18, 0.6474964985994398) 60%
+    ),
+    url('/images/cover.png');
 `
 
 const HeroImgContainer = styled.div`
@@ -77,6 +77,5 @@ const TerminalIntro = styled.div`
   max-width: 100vw;
   background-color: rgba(25, 25, 25, 0.67);
 `
-
 
 export default Hero

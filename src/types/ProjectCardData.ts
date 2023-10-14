@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react'
 
 export interface ProjectCardData {
-    img: string,
-    title: string,
-    descr: React.ReactNode,
-    content: React.ReactNode
+  img: string
+  title: string
+  descr: React.ReactNode
+  content: React.ReactNode
 }

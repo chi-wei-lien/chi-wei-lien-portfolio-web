@@ -1,1 +1,1 @@
-export * from "./ProjectCardData"
+export * from './ProjectCardData'
