@@ -6,7 +6,7 @@ const Hero = () => (
       <HeroImgContainer>
         <TerminalIntro>
           {'chi-wei-lien:~$'} cat intro.md <br />
-          Hi, I{"'"}m Willy.
+          Hi, I{'\''}m Willy.
         </TerminalIntro>
       </HeroImgContainer>
     </MaskContainer>

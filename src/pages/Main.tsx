@@ -1,4 +1,4 @@
-import { useLocation } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 
 import Hero from '../hero/Hero'
 import About from '../about/About'
@@ -8,16 +8,17 @@ import Education from '../education/Education'
 import Publication from '../publication/Publication'
 
 const Main = () => {
-  const location = useLocation()
-
   return (
     <div className='font-roboto-mono'>
       <div className='h-screen overflow-scroll no-scrollbar animate-fade scroll-smooth'>
         <Hero />
         <Navbar />
-        {(location.pathname === '/about' || location.pathname === '/') && <About />}
-        {location.pathname === '/education' && <Education />}
-        {location.pathname === '/publication' && <Publication />}
+        <Routes>
+          <Route path="/" element={<About />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/education" element={<Education />} />
+          <Route path="/publication" element={<Publication />} />
+        </Routes>
         <Footer />
       </div>
     </div>

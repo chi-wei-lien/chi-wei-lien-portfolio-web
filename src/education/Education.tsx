@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react'
 import SectionContainer from '../style/SectionContainer'
 import ReactMarkdown from 'react-markdown'
-import styled from 'styled-components'
 import ImageGallery from 'react-image-gallery'
 import { TextImageContainer, TextSection } from '../style/Text'
 import { ImageContainer, ImageSection } from '../style/Image'
@@ -28,7 +27,6 @@ const Education = () => {
       .then((res) => res.text())
       .then((text) => {
         setContent(text)
-        console.log(text)
       })
   }, [])
 
@@ -38,7 +36,9 @@ const Education = () => {
         <TextImageContainer>
           <TextSection>
             <h1>Education</h1>
-            <ReactMarkdown children={content} />
+            <ReactMarkdown>
+              {content}
+            </ReactMarkdown>
           </TextSection>
           <ImageContainer>
             <ImageSection>

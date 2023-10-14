@@ -1,6 +1,5 @@
 import ReactMarkdown from 'react-markdown'
 import { useEffect, useState } from 'react'
-import styled from 'styled-components'
 import SectionContainer from '../style/SectionContainer'
 import { ImageContainer, ImageSection } from '../style/Image'
 import { TextImageContainer, TextSection } from '../style/Text'
@@ -12,7 +11,6 @@ const About = () => {
       .then((res) => res.text())
       .then((text) => {
         setContent(text)
-        console.log(text)
       })
   }, [])
 
@@ -22,7 +20,9 @@ const About = () => {
         <TextImageContainer>
           <TextSection>
             <h1>About</h1>
-            <ReactMarkdown children={content} />
+            <ReactMarkdown>
+              {content}
+            </ReactMarkdown>
           </TextSection>
           <ImageContainer>
             <ImageSection>

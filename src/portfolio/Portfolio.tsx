@@ -64,7 +64,7 @@ const heartAuth: ProjectCardData = {
   content: (
     <ul className='list-disc'>
       <li>
-        Designing a machine learning model that identifies valid users{"'"} heart rate data
+        Designing a machine learning model that identifies valid users{'\''} heart rate data
         collected with Fitbit
       </li>
       <li>
@@ -83,7 +83,7 @@ const education: ProjectCardData = {
     <p>
       Bachelor of Science in Computer Science,{' '}
       <span className='underline decoration-pink-500 decoration-2'>
-        GPA: 4.0, Dean's Honor List
+        GPA: 4.0, Dean&apos;s Honor List
       </span>
       <br />
       2021 Aug - 2024 Dec
