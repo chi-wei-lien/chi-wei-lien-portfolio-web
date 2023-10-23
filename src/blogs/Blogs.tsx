@@ -19,7 +19,7 @@ const Publication = () => {
       <SectionContainer>
         <TextImageContainer>
           <TextSection>
-            <h2>Publication</h2>
+            <h2>Blogs</h2>
             <ReactMarkdown>{content}</ReactMarkdown>
           </TextSection>
         </TextImageContainer>

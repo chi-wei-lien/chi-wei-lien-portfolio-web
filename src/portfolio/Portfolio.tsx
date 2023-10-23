@@ -1,5 +1,5 @@
-import ProjectCard from './PortfolioCard'
 import { ProjectCardData } from '../types'
+import ProjectCard from './PortfolioCard'
 
 const surveyPaper: ProjectCardData = {
   img: '/images/portfolio/paper.png',
@@ -64,7 +64,7 @@ const heartAuth: ProjectCardData = {
   content: (
     <ul className='list-disc'>
       <li>
-        Designing a machine learning model that identifies valid users{'\''} heart rate data
+        Designing a machine learning model that identifies valid users&apos; heart rate data
         collected with Fitbit
       </li>
       <li>

@@ -15,17 +15,23 @@
         "sourceType": "module"
     },
     "plugins": [
-        "react", "react-hooks", "@typescript-eslint", "prettier"
+        "react", "react-hooks", "@typescript-eslint", "prettier", "simple-import-sort"
     ],
     "rules": {
+        "prettier/prettier": "error",
         "react/react-in-jsx-scope": "off",
         "camelcase": "error",
         "spaced-comment": "error",
         "quotes": ["error", "single"],
         "no-duplicate-imports": "error",
-        "no-console": "error"
+        "no-console": "error",
+        "simple-import-sort/imports": "error",
+        "simple-import-sort/exports": "error"
     },
     "settings": {
+        "react": {
+            "version": "detect"
+        },
         "import/resolver": {
             "typescript": {}
         }

@@ -1,5 +1,6 @@
-import SectionContainer from '../style/SectionContainer'
 import styled from 'styled-components'
+
+import SectionContainer from '../style/SectionContainer'
 
 const Footer = () => {
   const d = new Date()
