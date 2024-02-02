@@ -4,7 +4,7 @@ import ReactMarkdown from 'react-markdown'
 
 import { ImageContainer, ImageSection } from '../style/Image'
 import SectionContainer from '../style/SectionContainer'
-import { TextImageContainer, TextSection } from '../style/Text'
+import { List, TextImageContainer, TextSection } from '../style/Text'
 
 const images = [
   {
@@ -37,7 +37,9 @@ const Education = () => {
         <TextImageContainer>
           <TextSection>
             <h1>Education</h1>
-            <ReactMarkdown>{content}</ReactMarkdown>
+            <List>
+              <ReactMarkdown linkTarget='_blank'>{content}</ReactMarkdown>
+            </List>
           </TextSection>
           <ImageContainer>
             <ImageSection>

@@ -1,21 +1,27 @@
 ### Purdue University - West Lafayette
 
 ---
+
 - B.S. in Computer Science
-- Concentrated in software engineering and system programming
+- Concentrated in [system programming](https://www.cs.purdue.edu/undergraduate/curriculum/track-ss-fall2023.html)
 - Outstanding CS Sophomore Award
-- Research area: Biometric authentication, machine learning
+- Research area: Biometric authentication and Machine learning
 - GPA: 3.98/4.0
+
 ### Clubs
 
 ---
--  Purdue Hackers (ex engineering team lead) 
+
+- [Purdue Hackers](purduehackers.com/) (engineering team lead)
 
 ### CS Courses
 
 ---
-- Data Mining & Machine Learning (CS 373) | current
-- Introduction to the Analysis of Algorithms (CS 381) | current
+
+- Operating Systems (CS 354) | (current)
+- Computer Security (CS 426) | (current)
+- Data Mining & Machine Learning (CS 373) | A
+- Introduction to the Analysis of Algorithms (CS 381) | A
 - Software Engineering I (CS 307) | A+
 - Data Structures and Algorithms (CS 251) | A
 - System Programming (CS 252) | A+
@@ -26,4 +32,4 @@
 - Object-oriented Programming, Java (CS 180) | A
 - Python Programming (CS 38003) | A
 - Competitive Programming I (CS 290) | P
-- Competitive Programming II (CS 311) | current
+- Competitive Programming II (CS 311) | P

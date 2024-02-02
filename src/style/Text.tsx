@@ -10,6 +10,13 @@ export const TextImageContainer = styled.div`
   }
 `
 
+export const List = styled.div`
+  & ul li {
+    list-style-type: square;
+    margin: 10px 0;
+  }
+`
+
 export const TextSection = styled.div`
   max-width: 700px;
   padding: 40px;
