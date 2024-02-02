@@ -1,7 +1,8 @@
-import ReactMarkdown from 'react-markdown'
 import { useEffect, useState } from 'react'
-import SectionContainer from '../style/SectionContainer'
+import ReactMarkdown from 'react-markdown'
+
 import { ImageContainer, ImageSection } from '../style/Image'
+import SectionContainer from '../style/SectionContainer'
 import { TextImageContainer, TextSection } from '../style/Text'
 
 const About = () => {
@@ -20,9 +21,7 @@ const About = () => {
         <TextImageContainer>
           <TextSection>
             <h1>About</h1>
-            <ReactMarkdown>
-              {content}
-            </ReactMarkdown>
+            <ReactMarkdown>{content}</ReactMarkdown>
           </TextSection>
           <ImageContainer>
             <ImageSection>

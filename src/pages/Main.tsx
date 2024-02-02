@@ -1,10 +1,11 @@
 import { Route, Routes } from 'react-router-dom'
 
-import Hero from '../hero/Hero'
 import About from '../about/About'
-import Footer from '../footer/Footer'
-import Navbar from '../navbar/Navbar'
+import Blogs from '../blogs/Blogs'
 import Education from '../education/Education'
+import Footer from '../footer/Footer'
+import Hero from '../hero/Hero'
+import Navbar from '../navbar/Navbar'
 import Publication from '../publication/Publication'
 
 const Main = () => {
@@ -14,10 +15,11 @@ const Main = () => {
         <Hero />
         <Navbar />
         <Routes>
-          <Route path="/" element={<About />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/education" element={<Education />} />
-          <Route path="/publication" element={<Publication />} />
+          <Route path='/' element={<About />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/education' element={<Education />} />
+          <Route path='/publication' element={<Publication />} />
+          <Route path='/blogs' element={<Blogs />} />
         </Routes>
         <Footer />
       </div>

@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'react'
-import SectionContainer from '../style/SectionContainer'
-import ReactMarkdown from 'react-markdown'
 import ImageGallery from 'react-image-gallery'
-import { TextImageContainer, TextSection } from '../style/Text'
+import ReactMarkdown from 'react-markdown'
+
 import { ImageContainer, ImageSection } from '../style/Image'
+import SectionContainer from '../style/SectionContainer'
+import { TextImageContainer, TextSection } from '../style/Text'
 
 const images = [
   {
@@ -36,9 +37,7 @@ const Education = () => {
         <TextImageContainer>
           <TextSection>
             <h1>Education</h1>
-            <ReactMarkdown>
-              {content}
-            </ReactMarkdown>
+            <ReactMarkdown>{content}</ReactMarkdown>
           </TextSection>
           <ImageContainer>
             <ImageSection>
