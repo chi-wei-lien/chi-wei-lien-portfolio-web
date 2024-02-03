@@ -78,6 +78,7 @@ export const SkillTextSection = styled.div`
   max-width: 700px;
   padding: 40px;
   color: white;
+  text-align: center;
 
   & h1 {
     font-family: 'VT323', monospace;
