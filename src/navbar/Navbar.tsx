@@ -4,21 +4,21 @@ import styled from 'styled-components'
 const Navbar = () => {
   return (
     <NavbarContainer>
-      <NavbarElement>
-        <Link to='/about'>About</Link>
-      </NavbarElement>
-      <NavbarElement>
-        <Link to='/Skills'>Skills</Link>
-      </NavbarElement>
-      <NavbarElement>
-        <Link to='/education'>Education</Link>
-      </NavbarElement>
-      <NavbarElement>
-        <Link to='/experience'>Experience</Link>
-      </NavbarElement>
-      <NavbarElement>
-        <Link to='/publication'>Publication</Link>
-      </NavbarElement>
+      <Link to='/about'>
+        <NavbarElement>About</NavbarElement>
+      </Link>
+      <Link to='/Skills'>
+        <NavbarElement>Skills</NavbarElement>
+      </Link>
+      <Link to='/education'>
+        <NavbarElement>Education</NavbarElement>
+      </Link>
+      <Link to='/experience'>
+        <NavbarElement>Experience</NavbarElement>
+      </Link>
+      <Link to='/publications'>
+        <NavbarElement>Publications</NavbarElement>
+      </Link>
     </NavbarContainer>
   )
 }

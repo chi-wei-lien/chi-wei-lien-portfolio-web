@@ -23,11 +23,13 @@ const images = [
 
 const Education = () => {
   const [content, setContent] = useState('')
+  const [loaded, setLoaded] = useState(false)
   useEffect(() => {
     fetch('/content/education.md')
       .then((res) => res.text())
       .then((text) => {
         setContent(text)
+        setLoaded(true)
       })
   }, [])
 
@@ -42,9 +44,7 @@ const Education = () => {
             </List>
           </TextSection>
           <ImageContainer>
-            <ImageSection>
-              <ImageGallery items={images} />
-            </ImageSection>
+            <ImageSection>{loaded && <ImageGallery items={images} />}</ImageSection>
           </ImageContainer>
         </TextImageContainer>
       </SectionContainer>
