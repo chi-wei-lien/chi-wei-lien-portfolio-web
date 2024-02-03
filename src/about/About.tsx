@@ -1,6 +1,6 @@
 import { ImageContainer, ImageSection } from '../style/Image'
 import SectionContainer from '../style/SectionContainer'
-import { TextImageContainer, TextSection } from '../style/Text'
+import { ReversedTextImageContainer, TextImageContainer, TextSection } from '../style/Text'
 
 const About = () => {
   return (
@@ -49,16 +49,16 @@ const About = () => {
           </TextSection>
           <ImageContainer>
             <ImageSection>
-              <img src={'images/me_1.jpg'} alt={'me'}></img>
+              <img src={'images/me_1 copy.jpg'} id='me' alt={'me'}></img>
             </ImageSection>
           </ImageContainer>
         </TextImageContainer>
       </SectionContainer>
       <SectionContainer>
-        <TextImageContainer>
+        <ReversedTextImageContainer>
           <ImageContainer>
             <ImageSection>
-              <img src={'images/ph_windows.png'} alt={'me'}></img>
+              <img src={'images/ph_windows.png'} id='purdue_hackers' alt={'purdue_hackers'}></img>
             </ImageSection>
           </ImageContainer>
           <TextSection>
@@ -88,7 +88,7 @@ const About = () => {
               .
             </p>
           </TextSection>
-        </TextImageContainer>
+        </ReversedTextImageContainer>
       </SectionContainer>
       <SectionContainer>
         <TextImageContainer>
@@ -103,7 +103,7 @@ const About = () => {
           </TextSection>
           <ImageContainer>
             <ImageSection>
-              <img src={'images/youtube.png'} alt={'me'}></img>
+              <img id='youtube' src={'images/youtube.png'} alt={'youtube'}></img>
             </ImageSection>
           </ImageContainer>
         </TextImageContainer>

@@ -10,6 +10,17 @@ export const TextImageContainer = styled.div`
   }
 `
 
+export const ReversedTextImageContainer = styled.div`
+  max-width: 1100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+`
+
 export const List = styled.div`
   & ul li {
     list-style-type: square;

@@ -18,11 +18,31 @@ export const ImageSection = styled.div`
   transform: translateY(-50%);
   padding: 40px 40px 40px 0;
 
+  & img {
+    height: auto;
+    width: 100%;
+  }
+
   @media only screen and (max-width: 768px) {
     top: 0;
     -ms-transform: translateY(0);
     transform: translateY(0);
     position: relative;
     padding: 40px;
+
+    & #me {
+      height: 200px;
+      width: auto;
+    }
+
+    & #purdue_hackers {
+      height: 200px;
+      width: auto;
+    }
+
+    & #youtube {
+      height: 100px;
+      width: auto;
+    }
   }
 `
