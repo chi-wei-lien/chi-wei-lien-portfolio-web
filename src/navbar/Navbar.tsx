@@ -31,12 +31,17 @@ const NavbarContainer = styled.div`
 `
 
 const NavbarElement = styled.div`
-  padding: 20px 20px 0px 20px;
+  margin-top: 10px;
+  padding: 0px 20px 0px 20px;
   color: white;
   text-decoration: underline;
   font-family: 'VT323', monospace;
   font-size: 30px;
   cursor: pointer;
+
+  &: hover {
+    background-color: #83c5ff;
+  }
 `
 
 export default Navbar

@@ -1,6 +1,6 @@
 ### Software Engineer Intern
 
-#### 120Water
+#### [120Water](https://120water.com/)
 
 May 2023 – Aug 2023, IN
 
@@ -11,7 +11,7 @@ May 2023 – Aug 2023, IN
 
 ### Research Assistant
 
-#### Mobile and Wearable Artificial Intelligence (mAI) Lab
+#### [Mobile Artificial Intelligence Laboratory](https://polytechnic.purdue.edu/facilities/mobile-artificial-intelligence-laboratory)
 
 May 2022 – Present, IN
 
@@ -22,7 +22,7 @@ May 2022 – Present, IN
 
 ### Engineering Team Lead
 
-#### Purdue Hackers Club
+#### [Purdue Hackers Club](https://www.purduehackers.com/)
 
 Sep 2021 – Present, IN
 

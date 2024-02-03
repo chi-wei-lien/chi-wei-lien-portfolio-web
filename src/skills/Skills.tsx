@@ -81,9 +81,9 @@ const Skills = () => {
             <hr />
             <p>
               Here are some of the tools and python libraries that I often use in machine learning
-              projects. Pytorch is used for deep learning. Scikit-learn provides classical machine
-              learning models. Pandas is used to handle datasets. As for Jupyter Notebook, I often
-              test my code in Jupyter Notebook before putting it in a python file.
+              projects. I used Pytorch for deep learning, Pandas to handle datasets classical
+              machine, and Scikit-learn for traditional machine leanring modeling. As for Jupyter
+              Notebook, I often test my code in Jupyter Notebook before putting it in a python file.
             </p>
             <HorizontalList>
               <ul>
@@ -104,9 +104,9 @@ const Skills = () => {
             <h3>Others</h3>
             <hr />
             <p>
-              Git is the main version control system I used. Jira is helpful when organizing user
-              stories for software development. Amazon Web Services (AWS) and Docker are used for
-              project deployment.
+              Git is the main version control system I used. I used Jira help organize user stories
+              for software development and deploy projects using Amazon Web Services (AWS) and
+              Docker.
             </p>
             <HorizontalList>
               <ul>

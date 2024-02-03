@@ -112,6 +112,10 @@ export const ExperienceTextSection = styled.div`
     color: #83fffb;
   }
 
+  & h4 a {
+    color: #83fffb;
+  }
+
   & a {
     color: #fcd34d;
     text-decoration: underline;
