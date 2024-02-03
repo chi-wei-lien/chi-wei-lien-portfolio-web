@@ -28,6 +28,23 @@ export const List = styled.div`
   }
 `
 
+export const HorizontalList = styled.div`
+  & ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  & ul li {
+    margin-right: 50px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  & ul li img {
+    height: 70px;
+    margin: auto;
+  }
+`
+
 export const TextSection = styled.div`
   max-width: 700px;
   padding: 40px;
@@ -49,6 +66,36 @@ export const TextSection = styled.div`
     font-family: 'VT323', monospace;
     font-size: 30px;
     margin-top: 5px;
+  }
+
+  & a {
+    color: #fcd34d;
+    text-decoration: underline;
+  }
+`
+
+export const SkillTextSection = styled.div`
+  max-width: 700px;
+  padding: 40px;
+  color: white;
+
+  & h1 {
+    font-family: 'VT323', monospace;
+    font-size: 70px;
+    text-align: center;
+  }
+
+  & h2 {
+    font-family: 'VT323', monospace;
+    font-size: 50px;
+    text-align: center;
+  }
+
+  & h3 {
+    font-family: 'VT323', monospace;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 80px;
   }
 
   & a {

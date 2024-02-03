@@ -4,7 +4,7 @@
 
 - B.S. in Computer Science
 - Concentrated in [system programming](https://www.cs.purdue.edu/undergraduate/curriculum/track-ss-fall2023.html)
-- Outstanding CS Sophomore Award
+- [Outstanding CS Sophomore Award](https://www.linkedin.com/posts/chi-wei-lien_career-award-activity-7052045081381376000-kjNg?utm_source=share&utm_medium=member_desktop)
 - Research area: Biometric authentication and Machine learning
 - GPA: 3.98/4.0
 

@@ -7,6 +7,7 @@ import Footer from '../footer/Footer'
 import Hero from '../hero/Hero'
 import Navbar from '../navbar/Navbar'
 import Publication from '../publication/Publication'
+import Skills from '../skills/Skills'
 
 const Main = () => {
   return (
@@ -19,7 +20,7 @@ const Main = () => {
           <Route path='/about' element={<About />} />
           <Route path='/education' element={<Education />} />
           <Route path='/publication' element={<Publication />} />
-          <Route path='/blogs' element={<Blogs />} />
+          <Route path='/skills' element={<Skills />} />
         </Routes>
         <Footer />
       </div>

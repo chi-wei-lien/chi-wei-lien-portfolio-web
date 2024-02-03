@@ -68,7 +68,7 @@ const About = () => {
           <TextSection>
             <h1>Club</h1>
             <p>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Outside of classes, I led the engineering team at
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Outside of classes, I led the engineering team at{' '}
               <a href='https://www.purduehackers.com/' target='_blank' rel='noreferrer'>
                 Purdue Hackers Club
               </a>

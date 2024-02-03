@@ -8,14 +8,14 @@ const Navbar = () => {
         <Link to='/about'>About</Link>
       </NavbarElement>
       <NavbarElement>
+        <Link to='/Skills'>Skills</Link>
+      </NavbarElement>
+      <NavbarElement>
         <Link to='/education'>Education</Link>
       </NavbarElement>
       <NavbarElement>
         <Link to='/publication'>Publication</Link>
       </NavbarElement>
-      {/* <NavbarElement>
-        <Link to='/blogs'>Blogs</Link>
-      </NavbarElement> */}
     </NavbarContainer>
   )
 }
