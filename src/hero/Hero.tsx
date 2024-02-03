@@ -5,8 +5,10 @@ const Hero = () => (
     <MaskContainer>
       <HeroImgContainer>
         <TerminalIntro>
-          {'chi-wei-lien:~$'} cat intro.md <br />
-          Hi, I&apos;m Willy.
+          <p>
+            {'chi-wei-lien:~$'} cat intro.md <br />
+            Hi, I&apos;m Willy. <span>[Scroll down]</span>
+          </p>
         </TerminalIntro>
       </HeroImgContainer>
     </MaskContainer>
@@ -76,6 +78,11 @@ const TerminalIntro = styled.div`
   width: 24rem;
   max-width: 100vw;
   background-color: rgba(25, 25, 25, 0.67);
+
+  & span {
+    color: #83fffb;
+    text-decoration: underline;
+  }
 `
 
 export default Hero
