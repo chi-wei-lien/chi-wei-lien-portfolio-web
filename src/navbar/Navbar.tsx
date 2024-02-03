@@ -13,9 +13,9 @@ const Navbar = () => {
       <NavbarElement>
         <Link to='/publication'>Publication</Link>
       </NavbarElement>
-      <NavbarElement>
+      {/* <NavbarElement>
         <Link to='/blogs'>Blogs</Link>
-      </NavbarElement>
+      </NavbarElement> */}
     </NavbarContainer>
   )
 }
