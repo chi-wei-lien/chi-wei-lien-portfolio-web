@@ -39,7 +39,11 @@ const About = () => {
               and worked closely with healthcare-related data, such as heart rate, to develop
               authentication models. In addition to my research and machine learning experience, my
               foundation in software development was strengthened during my internship at{' '}
-              <a rel='noreferrer' target='_blank' href='https://120water.com/'>
+              <a
+                rel='noreferrer'
+                target='_blank'
+                href='https://www.linkedin.com/posts/chi-wei-lien_120water-internshipexperience-careerdevelopment-activity-7094114921713446912-z9VA?utm_source=share&utm_medium=member_desktop'
+              >
                 120Water
               </a>
               , a company dedicated to ensuring clean water for utilities. This experience allowed
