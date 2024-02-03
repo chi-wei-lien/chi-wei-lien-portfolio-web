@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom'
 import About from '../about/About'
 import Blogs from '../blogs/Blogs'
 import Education from '../education/Education'
+import Experience from '../experience/Experience'
 import Footer from '../footer/Footer'
 import Hero from '../hero/Hero'
 import Navbar from '../navbar/Navbar'
@@ -21,6 +22,7 @@ const Main = () => {
           <Route path='/education' element={<Education />} />
           <Route path='/publication' element={<Publication />} />
           <Route path='/skills' element={<Skills />} />
+          <Route path='/experience' element={<Experience />} />
         </Routes>
         <Footer />
       </div>

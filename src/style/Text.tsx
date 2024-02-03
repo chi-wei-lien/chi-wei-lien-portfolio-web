@@ -28,6 +28,13 @@ export const List = styled.div`
   }
 `
 
+export const ExperienceList = styled.div`
+  & ul li {
+    list-style-type: square;
+    margin: 10px 0;
+  }
+`
+
 export const HorizontalList = styled.div`
   & ul {
     display: flex;
@@ -66,6 +73,43 @@ export const TextSection = styled.div`
     font-family: 'VT323', monospace;
     font-size: 30px;
     margin-top: 5px;
+  }
+
+  & a {
+    color: #fcd34d;
+    text-decoration: underline;
+  }
+`
+
+export const ExperienceTextSection = styled.div`
+  max-width: 700px;
+  padding: 40px;
+  color: white;
+
+  & h1 {
+    font-family: 'VT323', monospace;
+    font-size: 70px;
+    text-align: center;
+  }
+
+  & h2 {
+    font-family: 'VT323', monospace;
+    font-size: 50px;
+    text-align: center;
+  }
+
+  & h3 {
+    margin-top: 100px;
+    font-family: 'VT323', monospace;
+    font-size: 30px;
+    margin-top: 60px;
+  }
+
+  & h4 {
+    font-family: 'VT323', monospace;
+    font-size: 25px;
+    margin-top: 5px;
+    color: #83fffb;
   }
 
   & a {

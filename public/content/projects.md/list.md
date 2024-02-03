@@ -1,0 +1,7 @@
+- Logue: https://github.com/Hakka-Man/Logue
+- ph-wiki: https://github.com/purduehackers/ph-wiki
+- wishlist-sugar: https://github.com/purduehackers/wishlist-sugar
+- PiggyBank: https://github.com/chi-wei-lien/PiggyBank
+- Face Lock: https://github.com/chi-wei-lien/FaceLockApi
+- Portfolio Web: https://github.com/chi-wei-lien/portfolio-web
+- SongSphere: https://github.com/SongSphere/SongSphere
