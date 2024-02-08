@@ -18,7 +18,7 @@ May 2022 – Present, IN
 - Collaborating with Prof. Vhaduri to develop a heart rate biometric authentication model.
 - Discovered and analyzed a novel heart rate feature with PCA analysis, hyperparameter optimization, statistical tests.
 - Authored a 35-page survey paper assessing the limitations and applications of new opportunistic biometrics and their integration with existing biometric methods (Published in **_[ACM Computing Survey](https://doi.org/10.1145/3603705)_**).
-- Modeling face recognition classifiers with incomplete facial data using Keras, TensorFlow, and public databases.
+- Modeling face recognition classifiers with incomplete facial data using PyTorch and public databases.
 
 ### Engineering Team Lead
 
