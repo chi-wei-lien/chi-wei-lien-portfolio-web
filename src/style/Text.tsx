@@ -54,7 +54,7 @@ export const HorizontalList = styled.div`
 
 export const TextSection = styled.div`
   max-width: 700px;
-  padding: 40px;
+  padding: 40px 20px 20px 20px;
   color: white;
 
   & h1 {
@@ -83,7 +83,7 @@ export const TextSection = styled.div`
 
 export const ExperienceTextSection = styled.div`
   max-width: 700px;
-  padding: 40px;
+  padding: 40px 20px 20px 20px;
   color: white;
 
   & h1 {
