@@ -1,46 +1,58 @@
-# Getting Started with Create React App
+# loopwhole.engineer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to loopwhole.engineer, a personal website showcasing my background, publications, experience, and a few tech blogs.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [About](#about)
+- [Features](#features)
+- [Technology](#technology)
+- [Installation](#installation)
+- [Usage](#usage)
 
-### `npm start`
+## About
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This website is designed to provide information about who I am, my skills, education, experience, and publications. It also includes a section for tech blogs where I write some random stuff about tech.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **About**: Learn more about me.
+- **Skills**: Overview of my professional skills.
+- **Education**: Details about my academic background.
+- **Experience**: My professional journey and work experience.
+- **Publications**: List of my published work.
+- **Blog**: A collection of tech-related blog posts.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technology
 
-### `npm run build`
+This app is created using React. I used `react-router-dom` as my router and `react-markdown` to generate blog posts.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To set up the project locally, follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone the repository**:
 
-### `npm run eject`
+   ```bash
+   git clone https://github.com/yourusername/loopwhole.engineer.git
+   cd loophole.engineer
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+To run the app locally:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+npm start
+```
 
-## Learn More
+To build the app for production:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm run build
+```
