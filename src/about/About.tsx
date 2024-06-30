@@ -10,8 +10,8 @@ const About = () => {
           <TextSection>
             <h1>About</h1>
             <p>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hi, I am Willy. I am a Junior studying Computer
-              Science at{' '}
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hi, my name is Willy Lien. I am a rising senior
+              studying Computer Science at{' '}
               <a href='/education' rel='noreferrer'>
                 Purdue University
               </a>{' '}
@@ -28,27 +28,29 @@ const About = () => {
               >
                 mobile artificial intelligence lab
               </a>
-              . During that opportunity, I wrote and published a paper on Biometrics in{' '}
+              . During that opportunity, I&apos;ve published two academic paper — one in{' '}
+              <a rel='noreferrer' target='_blank' href='http://doi.org/10.1016/j.mlwa.2024.100559'>
+                Elsevier&apos;s Machine Learning with Applications
+              </a>{' '}
+              and another in{' '}
               <a
                 rel='noreferrer'
                 target='_blank'
                 href='https://dl.acm.org/doi/full/10.1145/3603705'
               >
                 ACM computing survey
-              </a>{' '}
-              and worked closely with healthcare-related data, such as heart rate, to develop
-              authentication models. In addition to my research and machine learning experience, my
-              foundation in software development was strengthened during my internship at{' '}
-              <a
-                rel='noreferrer'
-                target='_blank'
-                href='https://www.linkedin.com/posts/chi-wei-lien_120water-internshipexperience-careerdevelopment-activity-7094114921713446912-z9VA?utm_source=share&utm_medium=member_desktop'
-              >
-                120Water
               </a>
-              , a company dedicated to ensuring clean water for utilities. This experience allowed
-              me to engage in both backend and frontend development, making me proficient in
-              full-stack development using Typescript.
+              . I worked closely with healthcare-related data, such as heart rate, to develop
+              authentication models. I also completed a software engineering internship at{' '}
+              <a rel='noreferrer' target='_blank' href='https://120water.com/'>
+                120Water
+              </a>{' '}
+              and am currently interning at{' '}
+              <a rel='noreferrer' target='_blank' href='https://120water.com/'>
+                Sallie Mae
+              </a>
+              . Both internships have allowed me to gain hands-on experience in the software
+              industry.
             </p>
           </TextSection>
           <ImageContainer>
@@ -66,7 +68,7 @@ const About = () => {
             </ImageSection>
           </ImageContainer>
           <TextSection>
-            <h1>Club</h1>
+            <h1>Club & Leadership</h1>
             <p>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Outside of classes, I led the engineering team at{' '}
               <a href='https://www.purduehackers.com/' target='_blank' rel='noreferrer'>
@@ -98,12 +100,9 @@ const About = () => {
         <TextImageContainer>
           <TextSection>
             <h1>Interest</h1>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;During my downtime, I enjoy practicing magic card
-            tricks, sketching, and creating educational{' '}
-            <a href='https://www.youtube.com/@loopholewilson'>CS-focused YouTube videos</a>. It is
-            surprising and rewarding that I have built a small audience of people who enjoy what I
-            share online. I am fully aware there is still so much to learn, and I am excited about
-            the opportunities for growth in the future.
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;During my free time, I enjoy performing card tricks,
+            creating pixel art, and making educational{' '}
+            <a href='https://www.youtube.com/@loopholewilson'>CS-focused YouTube videos</a>.
           </TextSection>
           <ImageContainer>
             <ImageSection>
@@ -111,6 +110,13 @@ const About = () => {
             </ImageSection>
           </ImageContainer>
         </TextImageContainer>
+      </SectionContainer>
+      <SectionContainer>
+        <TextSection>
+          <h1>Future Plans</h1>
+          I&apos;ll be graduating in December 2024, and I&apos;m looking to join a company where I
+          can solve challenging problems every day and make a real impact.
+        </TextSection>
       </SectionContainer>
     </div>
   )
