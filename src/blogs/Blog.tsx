@@ -36,7 +36,7 @@ const Blog = ({ fileName }: BlogProp) => {
                       {...rest}
                       PreTag='div'
                       /* eslint-disable react/no-children-prop */
-                      children={`${String(children).replace(/\n$/, '')} w-100`}
+                      children={String(children).replace(/\n$/, '')}
                       language={match[1]}
                       style={coldarkCold}
                     />
