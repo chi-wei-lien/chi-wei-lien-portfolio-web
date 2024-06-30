@@ -1,6 +1,6 @@
-# loopwhole.engineer
+# chiweilien.com
 
-Welcome to loopwhole.engineer, a personal website showcasing my background, publications, experience, and a few tech blogs.
+Welcome to chiweilien.com! This is my personal website where you can find information about my background, publications, experience, and where I share tech blogs.
 
 ## Table of Contents
 
