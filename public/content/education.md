@@ -3,10 +3,10 @@
 ---
 
 - B.S. in Computer Science
-- Concentrated in [system programming](https://www.cs.purdue.edu/undergraduate/curriculum/track-ss-fall2023.html)
+- Concentrated in [Database and Information Systems Track](https://www.cs.purdue.edu/undergraduate/curriculum/track-database-fall2023.html)
 - [Outstanding CS Sophomore Award](https://www.linkedin.com/posts/chi-wei-lien_career-award-activity-7052045081381376000-kjNg?utm_source=share&utm_medium=member_desktop)
 - Research area: Biometric authentication and Machine learning
-- GPA: 3.98/4.0
+- GPA: 3.99/4.0
 
 ### Clubs
 
@@ -18,8 +18,10 @@
 
 ---
 
-- Operating Systems (CS 354) | (current)
-- Computer Security (CS 426) | (current)
+- Computer Networks (CS 422) | (current)
+- Information Systems (CS 348) | (current)
+- Operating Systems (CS 354) | A
+- Computer Security (CS 426) | A
 - Data Mining & Machine Learning (CS 373) | A
 - Introduction to the Analysis of Algorithms (CS 381) | A
 - Software Engineering I (CS 307) | A+
