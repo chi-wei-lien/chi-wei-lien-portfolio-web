@@ -25,7 +25,7 @@ This website is designed to provide information about who I am, my skills, educa
 
 ## Technology
 
-This app is created using React. I used `react-router-dom` as my router and `react-markdown` to generate blog posts.
+This app is created using React with Typescript. I used `react-router-dom` as my router and `react-markdown` to generate blog posts.
 
 ## Installation
 

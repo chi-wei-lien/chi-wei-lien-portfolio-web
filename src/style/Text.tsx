@@ -79,6 +79,14 @@ export const TextSection = styled.div`
     color: #fcd34d;
     text-decoration: underline;
   }
+
+  @media (max-width: 700px) {
+    width: 500px;
+  }
+
+  @media (max-width: 500px) {
+    width: 350px;
+  }
 `
 
 export const ExperienceTextSection = styled.div`

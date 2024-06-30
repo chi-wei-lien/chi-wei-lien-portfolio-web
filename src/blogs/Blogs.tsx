@@ -1,26 +1,23 @@
-import { useEffect, useState } from 'react'
-import ReactMarkdown from 'react-markdown'
+import { Link } from 'react-router-dom'
 
 import SectionContainer from '../style/SectionContainer'
-import { TextImageContainer, TextSection } from '../style/Text'
+import { List, TextImageContainer, TextSection } from '../style/Text'
 
-const Publication = () => {
-  const [content, setContent] = useState('')
-  useEffect(() => {
-    fetch('/content/publication.md')
-      .then((res) => res.text())
-      .then((text) => {
-        setContent(text)
-      })
-  }, [])
-
+const Blogs = () => {
   return (
     <div>
       <SectionContainer>
         <TextImageContainer>
           <TextSection>
-            <h2>Blogs</h2>
-            <ReactMarkdown>{content}</ReactMarkdown>
+            <h1>Blogs</h1>
+            <List>
+              <ul>
+                <li>
+                  <Link to='/blog/python_cheat_sheet'>Python Coding Interview Cheat Sheet</Link>
+                </li>
+              </ul>
+            </List>
+            <br />
           </TextSection>
         </TextImageContainer>
       </SectionContainer>
@@ -28,4 +25,4 @@ const Publication = () => {
   )
 }
 
-export default Publication
+export default Blogs
