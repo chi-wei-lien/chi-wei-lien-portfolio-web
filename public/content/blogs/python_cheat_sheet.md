@@ -38,14 +38,16 @@ while stack:
 ### Queue (FIFO)
 
 ```python
+from collections import deque
+
 arr = [1,2,3]
-stack = []
+queue = deque([])
 
 for item in arr:
-    stack.append(item) # enqueue
+    queue.append(item) # enqueue
 
-while stack:
-    print(stack.pop(0), end=" ") # dequeue
+while queue:
+    print(queue.popleft(), end=" ") # dequeue
 
 """ Output
 1 2 3
