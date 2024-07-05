@@ -114,8 +114,8 @@ const About = () => {
       <SectionContainer>
         <TextSection>
           <h1>Future Plans</h1>
-          I&apos;ll be graduating in December 2024, and I&apos;m looking to join a company where I
-          can solve challenging problems every day and make a real impact.
+          I&apos;ll be graduating in May 2025, and I&apos;m looking to join a company where I can
+          solve challenging problems every day and make a real impact.
         </TextSection>
       </SectionContainer>
     </div>
