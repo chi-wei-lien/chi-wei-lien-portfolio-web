@@ -75,6 +75,15 @@ False
 """
 ```
 
+### Hashmap with initial value
+
+```python
+hashmap = defaultdict(lambda: 0)
+hashmap['a'] += 1
+print(hashmap['a']) # this will return 1
+print(hashmap['b']) # this will return 0
+```
+
 ### Hashset
 
 ```python
@@ -96,6 +105,11 @@ True
 ```
 
 ## Heap
+
+```python
+arr = [1,3,2,5,4]
+heapq.heapify(arr) # arr is how a min heap
+```
 
 ### Min Heap
 
